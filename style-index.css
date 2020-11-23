@@ -1,0 +1,99 @@
+a.logomarca{
+    color: #55d9c1a8;
+    letter-spacing: -5px;
+    font-size: 35px;
+}
+a.logomarca:hover{
+    text-decoration: none;
+    color:#55d9c1a8;
+}
+h1.logo-central{
+    color: #55d9c1a8;
+    letter-spacing: -6px;
+    font-size: 50px;
+}
+footer.rodape{
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    font-weight: 200;
+}
+p.paragrafo{
+    color: #F2F2F2;
+}
+.titulo{
+    text-align: center;
+    color: #55D9C1;
+}
+.conteiner{
+    background-color: #252626;
+}
+.contato{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .content{
+    max-width: 800;
+    text-align: center;
+}
+h2.contato{
+    font-size: 36px;
+    font-weight: 500;
+    color: #55D9C1;
+}
+.conteiner-contato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.conteiner-contato .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.conteiner-contato .contactInfo .box{
+    position: relative;
+    padding: 20px;
+    display: flex;
+}
+.conteiner-contato .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner-contato .contactInfo  .box .icon .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background-color: #F2F2F2;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+}
